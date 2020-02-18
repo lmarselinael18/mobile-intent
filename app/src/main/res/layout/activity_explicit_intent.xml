@@ -30,17 +30,20 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+
                 />
             <EditText
                 android:id="@+id/input_name"
                 android:hint="@string/name_hint"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:inputType="text"
                 android:layout_weight="2"
                 />
         </LinearLayout>
 
     <Button
+        android:onClick="getName"
         android:text="@string/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
